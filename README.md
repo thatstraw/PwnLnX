@@ -56,6 +56,16 @@ chmod +x PwnGen.sh
 
 >then follow the procedure to successifully create your payload, the payload is saved in PwnLnx directory. Send the created payload to victim
 
+### PwnLnx Usage
+
+| Command       | Usage                                                 |
+| ------------- |-------------------------------------------------------| 
+| help          | show help     									    | 
+| exit          | close all the sessions and quit the progaram.         |
+| show sessions | show all available sessions from connected.           |
+| session [ID]  | interact with a specified session ID.                 | 
+| kill [all/ID] | kill a specified session or all to kill all sessions. |
+| banner        | have funny by changing the program banner             |
 
 
 
