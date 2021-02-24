@@ -20,8 +20,9 @@ Please follow these instructions to get a copy of PwnLnX running on your local m
     * pyfiglet
     * tqdm
     * mss
+    * termcolor
     * pyautogui
-    * pyinstaller*
+    * pyinstaller
     * pip3
 
 ### Installing
