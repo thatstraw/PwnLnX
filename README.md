@@ -59,19 +59,14 @@ chmod +x PwnGen.sh
 ### PwnLnx Usage
 
 | Command       | Usage                                                 |
-| ------------- |-------------------------------------------------------| 
-<<<<<<< HEAD
-| help          | show help.     									    | 
-=======
+| ------------- |-------------------------------------------------------|    					
 | help          | show help     									    | 
->>>>>>> 9bdb801d8a87810366c9e8eaa627173c200bf8b1
 | exit          | close all the sessions and quit the progaram.         |
 | show sessions | show all available sessions from connected.           |
 | session [ID]  | interact with a specified session ID.                 | 
 | kill [all/ID] | kill a specified session or all to kill all sessions. |
 | banner        | have funny by changing the program banner             |
 
-<<<<<<< HEAD
 ---
 
 ### Interact with a session
@@ -93,8 +88,5 @@ chmod +x PwnGen.sh
 | stop_keycap		 | stop the capturing keystrokes.                          |
 
 > **NB.** you can also execute linux system commands besides those listed above.
-=======
-
->>>>>>> 9bdb801d8a87810366c9e8eaa627173c200bf8b1
 
 
