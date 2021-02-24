@@ -89,4 +89,5 @@ chmod +x PwnGen.sh
 
 > **NB.** you can also execute linux system commands besides those listed above.
 
-
+## Disclaimer 
+I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
