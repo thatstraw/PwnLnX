@@ -60,13 +60,41 @@ chmod +x PwnGen.sh
 
 | Command       | Usage                                                 |
 | ------------- |-------------------------------------------------------| 
+<<<<<<< HEAD
+| help          | show help.     									    | 
+=======
 | help          | show help     									    | 
+>>>>>>> 9bdb801d8a87810366c9e8eaa627173c200bf8b1
 | exit          | close all the sessions and quit the progaram.         |
 | show sessions | show all available sessions from connected.           |
 | session [ID]  | interact with a specified session ID.                 | 
 | kill [all/ID] | kill a specified session or all to kill all sessions. |
 | banner        | have funny by changing the program banner             |
 
+<<<<<<< HEAD
+---
 
+### Interact with a session
+
+| Command            | Usage                                                   |
+| -------------------|---------------------------------------------------------| 
+| help               | show help.     									       | 
+| quit               | close the current session.                              |
+| background         | background the current session.                         |
+| sysinfo            | get minimum target system information.                  | 
+| create_persist     | create a persistant backdoor.                           |
+| upload             | upload the specified filename to the target system.     |
+| download           | download the specified filename from the target system. |
+| screenshot         | take a desktop screenshot of the target system.         |
+| start_screenshare  | start desktop screensharing.                            | 
+| stop_screenshare   | stop desktop screensharing.                             |
+| start_keycap       | start capturing victim's pressed keystrokes.            |
+| dump_keycap        | dump/get the captured keystrokes.                       |
+| stop_keycap		 | stop the capturing keystrokes.                          |
+
+> **NB.** you can also execute linux system commands besides those listed above.
+=======
+
+>>>>>>> 9bdb801d8a87810366c9e8eaa627173c200bf8b1
 
 
