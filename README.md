@@ -47,7 +47,7 @@ chmod +x setup.sh
 #### Listening for incoming connections
 `python3 PwnLnX.py --lhost [your localhost ip address] --lport [free port for listening incoming connections]`
 
-#### creating a payload
+#### creating/Generating a payload
 ```bash
 chmod +x PwnGen.sh
 
@@ -92,3 +92,21 @@ chmod +x PwnGen.sh
 
 ## Disclaimer 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
+
+## Snapshots
+![](res/start_con.png)
+![](res/waiting_con.png)
+![](res/show_sess.png)
+![](res/session.png)
+![](res/help.png)
+![](res/help2.png)
+![](res/ls.png)
+![](res/download.png)
+![](res/pwngen.png)
+
+
+
+
+
+
+
