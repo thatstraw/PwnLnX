@@ -62,7 +62,7 @@ chmod +x PwnGen.sh
 
 | Command       | Usage                                                 |
 | ------------- |-------------------------------------------------------|    					
-| help          | show help     									    | 
+| help          | show help     					| 
 | exit          | close all the sessions and quit the progaram.         |
 | show sessions | show all available sessions from connected.           |
 | session [ID]  | interact with a specified session ID.                 | 
@@ -75,7 +75,7 @@ chmod +x PwnGen.sh
 
 | Command            | Usage                                                   |
 | -------------------|---------------------------------------------------------| 
-| help               | show help.     									       | 
+| help               | show help.     					       | 
 | quit               | close the current session.                              |
 | background         | background the current session.                         |
 | sysinfo            | get minimum target system information.                  | 
@@ -93,6 +93,8 @@ chmod +x PwnGen.sh
 
 ## Disclaimer 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
+## Report Bugs
+> spectertraww@gmail.com
 
 ## Snapshots
 ![](res/start_con.png)
