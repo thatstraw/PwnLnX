@@ -101,18 +101,7 @@ class PwnLnX:
 			 ##     ##  ## ##  ## #### ##  ##  ##  ##v1.2  
 			 ##                                        
 		''', "green"))
-		print(f'''\t\t\t\t{colored("coded by Specter Traww - @spectertraww","magenta")}
-------------------------------------------------------------------------------------------------------------
-|                                                {colored("COMMUNITIES","magenta")}                                               |
-------------------------------------------------------------------------------------------------------------
-|               {colored("NOOB SECURITY","green")}                      |             {colored("LEVEL IV SECURITY","red")}                         |
-------------------------------------------------------------------------------------------------------------
-|Youtube Channel   - https://youtube.com/noobsec   | Youtube Channel   - https://youtube.com/levelivsec    |
-|Telegram Channel  - https://t.me/noobsec          | Telegram Channel  - https://t.me/levelivsec           |
-|Discord Server    - https://discord.gg/wauq8bDbw4 | Discord Server    - https://discord.gg/THJX876        |
-|                                                  |                                                       |
-------------------------------------------------------------------------------------------------------------
-		''')
+		print(f'''\t\t\t\t{colored("coded by Specter Traww - @spectertraww","magenta")}\n\t\t\t\t[+] Join Us on Telegram: https://t.me/xtreme_sec\n\t\t\t\t[+] Join Us on Telegram: https://discord.gg/aYVNsSVqGc''')
 
 	def __show_help(self):
 		_help = f'''
