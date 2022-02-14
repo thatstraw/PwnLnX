@@ -4,12 +4,7 @@ An advanced **multi-threaded**, **multi-client** python reverse shell for hackin
 
 :mailbox: Reach me out!
 
-[![Twitter Badge](https://img.shields.io/badge/-@OxTRAW-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/OxTRAW)](https://twitter.com/OxTRAW) [![Mail Badge](https://img.shields.io/badge/-XTREMESEC-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/XTREMESEC) [![Mail Badge](https://img.shields.io/badge/-LevelivSecurity-e74c3c?style=flat&labelColor=e74c3c&logo=youtube&logoColor=white)](https://youtube.com/levelivsec) [![Mail Badge](https://img.shields.io/badge/-@OxTRAW-e84393?style=flat&labelColor=e84393&logo=instagram&logoColor=white)](https://instagram.com/) [![Mail Badge](https://img.shields.io/badge/-OxTRAW-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=white)](mailto:spectertraww@gmail.com)
-
-
-[]: # (#### Communities 🕵🕵
-##### Hang out with Xtreme Security family on Discord.
- [![Discord](https://img.shields.io/discord/805879201961607178?color=green&label=@XTREMESEC&logo=Discord&style=flat-square&link=https://discord.gg/wauq8bDbw4)](https://discord.gg/wauq8bDbw4))
+[![Twitter Badge](https://img.shields.io/badge/-@OxTRAW-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/OxTRAW)](https://twitter.com/OxTRAW) [![Twitter Badge](https://img.shields.io/badge/-@Xtreme Pentesting-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/xtremepentest)](https://twitter.com/xtremepentest)
 
 
 ## Getting Started
