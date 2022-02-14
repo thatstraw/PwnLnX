@@ -89,7 +89,7 @@ chmod +x PwnGen.sh
 ## Disclaimer 
 I will not be responsible for any direct or indirect damage caused due to the usage of this tool, it is for educational purposes only.
 ## Report Bugs
-> spectertraww@gmail.com
+> 0xtraw@gmail.com
 
 ## Snapshots
 ![](res/start_con.png)
