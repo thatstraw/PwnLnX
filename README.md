@@ -4,7 +4,7 @@ An advanced **multi-threaded**, **multi-client** python reverse shell for hackin
 
 :mailbox: Reach me out!
 
-[![Twitter Badge](https://img.shields.io/badge/-@OxTRAW-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/OxTRAW)](https://twitter.com/OxTRAW) [![Twitter Badge](https://img.shields.io/badge/-@Xtreme Pentesting-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/xtremepentest)](https://twitter.com/xtremepentest)
+[![Twitter Badge](https://img.shields.io/badge/-@OxTRAW-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/OxTRAW)](https://twitter.com/OxTRAW) [![Twitter Badge](https://img.shields.io/badge/-@XtremePentesting-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/xtremepentest)](https://twitter.com/xtremepentest)
 
 
 ## Getting Started
