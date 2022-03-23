@@ -1,3 +1,5 @@
+#!/bin/bash 
+
 function banner(){
 	clear
 	echo -e '''\e[1;32m
