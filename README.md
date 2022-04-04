@@ -103,8 +103,19 @@ I will not be responsible for any direct or indirect damage caused due to the us
 ![](res/pwngen.png)
 
 
+# Sponsor this project
 
-
-
+**Bitcoin Address**
+```
+bc1q33ncrxzpuc5n02dc05kl44vpmaw53wf3ztq78q
+```
+**Etherium Address**
+```
+0x1c9155bc825CBa45B64741f2E33069d6808AdD92
+```
+**Litecoin Address**
+```
+LRvPjCq3ZNunLz3bnSc4wz4FDJF8AZUJLK
+```
 
 
