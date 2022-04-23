@@ -101,7 +101,7 @@ class PwnLnX:
 			 ##     ##  ## ##  ## #### ##  ##  ##  ##v1.2  
 			 ##                                        
 		''', "green"))
-		print(f'''\t\t\t\t{colored("coded by Specter Traww - @spectertraww","magenta")}\n\t\t\t\t[+] Join Us on Telegram: https://t.me/xtreme_sec\n\t\t\t\t[+] Join Us on Telegram: https://discord.gg/aYVNsSVqGc''')
+		print(f'''\t\t\t\t{colored("coded by TRAW - @xtremepentest","magenta")}\n\t\t\t\t[+] Follow me on twitter: https://twitter.com/xtremepentest\n\t\t\t\t[+] Join Us on Telegram: https://discord.gg/aYVNsSVqGc''')
 
 	def __show_help(self):
 		_help = f'''
